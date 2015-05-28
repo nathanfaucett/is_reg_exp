@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/nathanfaucett/is_regexp.git"
   },
-  "main": "src/index.js",
+  "main": "src/isRegExp.js",
   "author": "Nathan Faucett",
   "license": "MIT",
   "readmeFilename": "README.md",
