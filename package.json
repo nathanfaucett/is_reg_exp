@@ -1,15 +1,15 @@
 {
-  "name": "is_reg_exp",
+  "name": "is_regexp",
   "version": "0.0.11",
-  "description": "is_reg_exp for the browser and node.js",
+  "description": "is_regexp for the browser and node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/is_reg_exp.git"
+    "url": "https://github.com/nathanfaucett/is_regexp.git"
   },
   "main": "src/index.js",
   "keywords": [
-    "is_reg_exp",
-    "is_reg_exp.js"
+    "is_regexp",
+    "is_regexp.js"
   ],
   "author": "Nathan Faucett",
   "license": "BSD-2-Clause",
