@@ -1,0 +1,9 @@
+ui: tape
+concurrency: 1
+browsers:
+        - name: chrome
+          version: ["36", "43"]
+          platform: ["Linux"]
+        - name: ie
+          version: ["6", "7", "11"]
+          platform: ["Windows 2012"]
