@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - "0.12"
+
+script: "npm run node-test && npm run browser-test-travis"
+
+env:
+  global:
+    - secure: Gu9XP3a2rOqP7EJv2K4pyWS6k4gDFITonqTuDaPt9P3ImmQh4AvOMUFnd4xLyFS/tFQNLsMnEXUBQv8/T4yOMItPXpMUTixdkZO6enoJypuzhEow22E1WWTvV+fBqKlGvXMaeeEJABspd1+nUaj06jVHLs0TJoy4V1+BumCo5RU=
+    - secure: NGz//vtKHoAuiuXtBmG9r//2VRV/36pCx46IpovLnhOsc28BR698TEWZQL5/ic95Qjgdx86tp2BH49oGkUTkZGgDdnToSKzdSYFCfCFONR8/wEXAxHQhAVJ0nAamJ8jBnUhYDV+32Ot3AKvaOWWQT3ErSNYd9D4ztkrHeUaLkkw=
