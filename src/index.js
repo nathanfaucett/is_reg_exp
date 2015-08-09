@@ -1,7 +1,8 @@
-var isObjectLike = require("is_object_like");
+var isObject = require("is_object");
 
 
 var objectToString = Object.prototype.toString;
+
 
 module.exports = isRegExp;
 
@@ -19,7 +20,7 @@ module.exports = isRegExp;
 */
 function isRegExp(value) {
     return (
-        isObjectLike(value) &&
+        isObject(value) &&
         objectToString.call(value) === "[object RegExp]"
     ) || false;
 }
