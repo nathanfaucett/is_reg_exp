@@ -1,7 +1,7 @@
 {
-  "name": "is_regexp",
-  "version": "0.0.11",
-  "description": "is_regexp for the browser and node.js",
+  "name": "@nathanfaucett/is_regexp",
+  "version": "0.0.1",
+  "description": "checks if value is a regexp",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/is_regexp.git"
@@ -11,20 +11,20 @@
     "test": "npm run node-test",
     "node-test": "node ./test/index.js | ./node_modules/.bin/tap-spec",
     "browser-test": "zuul -- ./test/index.js",
-    "browser-test-local": "zuul --local 8080 ./test/index.js"
+    "browser-test-local": "zuul --local 9999 ./test/index.js"
   },
   "author": "Nathan Faucett",
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "tape": "^4.0.0",
     "tap-spec": "^4.0.0",
     "zuul": "^3.0.0"
   },
   "dependencies": {
-    "is_object": "git://github.com/nathanfaucett/is_object.git"
+    "@nathanfaucett/is_object": "0.0.1"
   }
 }
